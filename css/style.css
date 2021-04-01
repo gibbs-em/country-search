@@ -1,0 +1,41 @@
+/* TODO: Put your CSS code in here */
+
+h1, h2 {
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+body {
+background: #348F50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#wrapper {
+  margin: auto;
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+}
+
+#address {
+  height: 30px;
+  width: 300px;
+  border: 0px solid;
+  border-radius: 24px;
+}
+
+#submit {
+  height: 36px;
+  color: white;
+  background-color: rgb(5,24,41);
+  border-radius: 18px;
+  border: 0px solid;
+}

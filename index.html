@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Country Search</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+    <h1 class="title">Country Search</h1>
+    <p>Search for a country to see some key facts about that place.</p>
+      <div id="inputs">
+        <input type="text" id="address">
+        <input type="submit" id="submit">
+
+        <h2 id="place"></h2>
+        <p id="key-stats"></p>
+        <p id="languages"></p>
+        <p id="coordinates"></p>
+        <div id="map" style="height: 300px; width: 600px"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
